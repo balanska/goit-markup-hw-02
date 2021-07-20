@@ -1,0 +1,58 @@
+/* цвет основного текста #7575 */
+/* цвет заголовков #212121;
+ */
+/* белый #FFFFFF  */
+/* акцент #18A0FB */
+/* цвет фона #E5E5E5 */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;    
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+    --background-color: #E5E5E5;
+  }
+  body {
+    background-color: var(--background-color);
+    color: var(--primary-text-color);  
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  /* Logo */
+
+.logo {
+    color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+.accent {
+    color: var(--accent-color);
+} 
+.site-nav .link-current {
+color: var(--accent-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.site-nav .link {
+ color:var(--title-text-color); 
+}
+.list {
+  list-style: none;
+}
+.contacts .contact {
+color: var(--primary-text-color); 
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.buttons .button {
+  
+}
