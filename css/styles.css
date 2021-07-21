@@ -53,6 +53,68 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
-.buttons .button {
-  
+.buttons .button {  
+  color: var(--primary-white-color);
+  color: var(--title-text-color);
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.03em;
+}
+.button Все {
+  color: var(--primary-white-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.03em;
+}
+.button Веб-сайты {
+  color: var(--title-text-color);
+ font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.03em; 
+}
+.batton Приложения {
+  color: var(--title-text-color);  
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.03em;  
+}
+.batton Дизайн {
+   color: var(--title-text-color);  
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+/* identical to box height, or 162% */
+text-align: center; 
+}
+batton Маркетинг {
+   color: var(--title-text-color);  
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+/* identical to box height, or 162% */
+text-align: center; 
+}
+.list {
+  list-style: none;
+}
+.buttons .button:hover {
+  color: var(--title-text-color);
+}
+.buttons .button .span:hover {
+  color: var(--accent-color);
+}
+.buttons .button:focus {
+  color: background: #F5F4FA;
 }
