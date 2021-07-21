@@ -53,68 +53,18 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
-.buttons .button {  
-  color: var(--primary-white-color);
+.button {  
   color: var(--title-text-color);
   font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
-/* identical to box height, or 162% */
 text-align: center;
 letter-spacing: 0.03em;
 }
-.button Все {
+ .button:hover,
+ .button:focus {
+  background-color: var(--accent-color);
   color: var(--primary-white-color);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-/* identical to box height, or 162% */
-text-align: center;
-letter-spacing: 0.03em;
+  cursor: pointer;
 }
-.button Веб-сайты {
-  color: var(--title-text-color);
- font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-/* identical to box height, or 162% */
-text-align: center;
-letter-spacing: 0.03em; 
-}
-.batton Приложения {
-  color: var(--title-text-color);  
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-/* identical to box height, or 162% */
-text-align: center;
-letter-spacing: 0.03em;  
-}
-.batton Дизайн {
-   color: var(--title-text-color);  
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-/* identical to box height, or 162% */
-text-align: center; 
-}
-batton Маркетинг {
-   color: var(--title-text-color);  
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-/* identical to box height, or 162% */
-text-align: center; 
-}
-.list {
-  list-style: none;
-}
-.buttons .button:hover {
-  color: var(--title-text-color);
-}
-.buttons .button .span:hover {
-  color: var(--accent-color);
-}
-.buttons .button:focus {
-  color: background: #F5F4FA;
-}
+
