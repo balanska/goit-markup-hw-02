@@ -10,7 +10,7 @@
     --title-text-color: #212121;    
     --accent-color: #2196F3;
     --primary-white-color: #ffffff;
-    --background-color: #E5E5E5;
+    --background-color: #ffffff;
     --background-footer: #2F303A;
   }
   body {
@@ -38,28 +38,28 @@ letter-spacing: 0.03em;
 .accent {
     color: var(--accent-color);
 } 
-.site-nav .link-current {
-color: var(--accent-color);
+.link-current {
+  color:var(--accent-color);
+}
+.link {
+color:var(--title-text-color); 
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
-letter-spacing: 0.02em;
-}
-.site-nav .link {
- color:var(--title-text-color); 
+letter-spacing: 0.02em; 
 }
 .list {
   list-style: none;
 }
-.contacts .contact {
+.contact {
 color: var(--primary-text-color); 
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
-.contacts .contact:hover,
-.contacts .contact:focus { 
+.contact:hover,
+.contact:focus { 
   background-color: var(--accent-color);
   color: var(--primary-white-color);  
 }
@@ -77,7 +77,7 @@ text-transform: uppercase;
 }
 .hero-button {
   color: var(--primary-white-color);
-  font-weight: bold;
+  font-weight: 700;
 font-size: 16px;
 line-height: 1.9;
 display: flex;
@@ -89,7 +89,8 @@ background-color: var(--accent-color);
 .hero-button:hover,
 .hero-button:focus { 
   background-color: var(--accent-color);
-  color: var(--primary-white-color);  
+  color: var(--primary-white-color);
+  cursor: pointer;  
 }
 .principl-title {
   color: var(--title-text-color);
@@ -122,13 +123,37 @@ text-align: center;
   font-weight: 500;
 font-size: 16px;
 line-height: 1.2;
-text-align: center;
 }
 .team-text {
   color: var(--primary-text-color);
   font-size: 16px;
 line-height: 1.2;
-text-align: center;
+}
+.button {  
+  color: var(--title-text-color);  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;  
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #F5F4FA;
+  }  
+  .button:hover {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+  }  
+  .progect-title {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+  }
+.progect-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+line-height: 1.9;
 }
 .footer {
   background-color: var(--background-footer);
