@@ -38,15 +38,19 @@ letter-spacing: 0.03em;
 .accent {
     color: var(--accent-color);
 } 
-.link-current {
-  color:var(--accent-color);
+.site-nav-link {
+  color:var(--title-text-color); 
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em; 
+  }
+.site-nav-link:hover,
+.site-nav-link:focus {   
+  color: var(--accent-color);  
 }
-.link {
-color:var(--title-text-color); 
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em; 
+.current {
+color:var(--accent-color);
 }
 .list {
   list-style: none;
@@ -59,9 +63,8 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 }
 .contact:hover,
-.contact:focus { 
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);  
+.contact:focus {  
+color: var(--accent-color);  
 }
 .hero {
   background-color: #2F303A;
@@ -104,14 +107,7 @@ text-transform: uppercase;
   font-size: 14px;
 line-height: 1.7;
 }
-.classes-title {
-  color: var(--title-text-color);
-  font-weight: 700;
-font-size: 36px;
-line-height: 1.2;
-text-align: center;
-}
-.team-title {
+.section-title {
   color: var(--title-text-color);
   font-weight: 700;
 font-size: 36px;
@@ -129,7 +125,7 @@ line-height: 1.2;
   font-size: 16px;
 line-height: 1.2;
 }
-.button {  
+.filter-button {  
   color: var(--title-text-color);  
   font-weight: 500;
   font-size: 16px;
@@ -138,7 +134,7 @@ line-height: 1.2;
   letter-spacing: 0.03em;
   background-color: #F5F4FA;
   }  
-  .button:hover {
+  .filter-button:hover {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     cursor: pointer;
@@ -187,9 +183,8 @@ color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
 }
 .footer-contacts-basic:hover,
-.footer-contacts-basic:focus { 
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);  
+.footer-contacts-basic:focus {   
+  color: var(--accent-color);  
 }
 li {
   list-style-type: none;
